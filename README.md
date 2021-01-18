@@ -55,14 +55,14 @@ We have performed our experiment twenty times, and selected unique readings from
 the validation score during training the model. The model was trained for 1000 iterations.
 
 |  Table - 1  |
-| ----------- |
+
 | Model Evaluation |
-| ----------------- |
+
 |    | accuracy | precision | recall | f1-score | CK | MCC |
 | ---| -------- | --------- | ------ | -------- | -- | --- |
 |1 | 0.9525 | 0.9548 | 0.9526 | 0.9522 | 0.9426 | 0.9432 |
 |2 | 0.9567 | 0.9589 | 0.9565 | 0.9566 | 0.9474 | 0.9479 |
-|3 | 0.9605 | 0.9621 | 0.9605 | 0.9604 | 0.9521 | 0.9525 |
+|3 | 0.9605 | 0.9621 | 0.9605 | 0.9604 | 0.9521 | 0.9525 |s
 |4 | 0.9490 | 0.9507 | 0.9486 | 0.9485 | 0.9378 | 0.9383 |
 |5 | 0.9486 | 0.9509 | 0.9486 | 0.9487 | 0.9378 | 0.9382 |
 |6 | 0.9604 | 0.9623 | 0.9605 | 0.9603 | 0.9522 | 0.9526 |
@@ -82,8 +82,6 @@ The overall performance of our model over unknown data or validation data are:
 
 ## Classification report
 
-| CLASSIFICATION REPORT |
-| --------------------- |
 |     | precision | recall | f1-score | Support |
 | --- | --------- | ------ | -------- | ------- |
 | Bronchiectasis | 0.98 | 1.00 | 0.99 | 44 |
