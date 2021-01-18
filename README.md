@@ -54,11 +54,11 @@ Optimizer or optimizing algorithm.
 We have performed our experiment twenty times, and selected unique readings from them for this research paper as shown in TABLE-1. We validated our model performance with the best model weight concerning
 the validation score during training the model. The model was trained for 1000 iterations.
 
-Table - 1 
+Table - 1
 Model Evaluation
 
-|    | accuracy | precision | recall | f1-score | CK | MCC |
-| | -------- | --------- | ------ | --------- | -- | --- |
+| | accuracy | precision | recall | f1-score | CK | MCC |
+|--| -------- | --------- | ------ | --------- | -- | --- |
 |1 | 0.9525 | 0.9548 | 0.9526 | 0.9522 | 0.9426 | 0.9432 |
 |2 | 0.9567 | 0.9589 | 0.9565 | 0.9566 | 0.9474 | 0.9479 |
 |3 | 0.9605 | 0.9621 | 0.9605 | 0.9604 | 0.9521 | 0.9525 |s
