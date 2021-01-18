@@ -54,9 +54,8 @@ Optimizer or optimizing algorithm.<br>
 We have performed our experiment twenty times, and selected unique readings from them for this research paper as shown in TABLE-1. We validated our model performance with the best model weight concerning
 the validation score during training the model. The model was trained for 1000 iterations.
 
-|  Table - 1  |
-
-| Model Evaluation |
+ Table - 1 <br>
+ Model Evaluation <br><br>
 
 |    | accuracy | precision | recall | f1-score | CK | MCC |
 | ---| -------- | --------- | ------ | -------- | -- | --- |
@@ -70,7 +69,7 @@ the validation score during training the model. The model was trained for 1000 i
 |8 | 0.9604 | 0.9618 | 0.9605 | 0.9604 | 0.9521 | 0.9525 |
 |9 | 0.9565 | 0.9599 | 0.9565 | 0.9566 | 0.9474 | 0.9480 |
 |10 | 0.9604 | 0.9625 | 0.9605 | 0.9601 | 0.9520 | 0.9534 |
-| ---| -------- | --------- | ------ | -------- | -- | --- |
+
 The overall performance of our model over unknown data or validation data are:
 
 1. Accuracy: 95:67% ± 0:77%
