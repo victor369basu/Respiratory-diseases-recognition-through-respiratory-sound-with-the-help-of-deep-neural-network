@@ -48,14 +48,14 @@ While compiling the model Categorical Cross-entropy is
 used as the loss function. We have also used Adamax as our
 Optimizer or optimizing algorithm.
 
-<img align="center" alt="performance" src="./Images/acc_2.png" />
+<img align="center" alt="performance" src="./Images/acc2.png" />
 <img align="center" alt="performance" src="./Images/loss2.png" /><br>
 
 We have performed our experiment twenty times, and selected unique readings from them for this research paper as shown in TABLE-1. We validated our model performance with the best model weight concerning
 the validation score during training the model. The model was trained for 1000 iterations.
 
- Table - 1 <br>
- Model Evaluation <br><br>
+Table - 1 <br>
+Model Evaluation <br><br>
 
 |    | accuracy | precision | recall | f1-score | CK | MCC |
 | | -------- | --------- | ------ | --------- | -- | --- |
