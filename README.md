@@ -19,7 +19,7 @@ Prediction of respiratory diseases such as COPD(Chronic obstructive pulmonary di
 
 ## INTRODUCTION
 
-In this research paper, we are going to discuss how deep learning could be used in the recognition of respiratory disease just from the respiratory sound. Respiratory audios are important indicators of respiratory health and respiratory disorder. For example, a wheezing sound is a common sign that a patient has an obstructive airway disease like asthma or chronic obstructive pulmonary disease (COPD). We have approached the problem with different neural network model architecture, and choose the model with would give us the best possible results, we also performed data augmentation over the data-set. The data-set we have used consists of respiratory sounds taken from different patients from different locations around the chest. We have used **Accuracy score**, **Precision score**, **Recall score**, **f1-score**, **Cohen’s kappa score**, **Matthews correlation coefficien** as metrics to evaluate and compare the performance of different models against the same data-set. With this model we have achieved an accuracy of 95:67% ± 0:77%,precision of 95:89% ± 0:8%, Sensitivity of 95:65% ± 0:753%,f1-score of 95:66% ± 0:79%, Cohen’s kappa score of 94:74% ± 0:96% and Matthews correlation coefficient of 94:79% ± 0:96%.
+In this research paper, we are going to discuss how deep learning could be used in the recognition of respiratory disease just from the respiratory sound. Respiratory audios are important indicators of respiratory health and respiratory disorder. For example, a wheezing sound is a common sign that a patient has an obstructive airway disease like asthma or chronic obstructive pulmonary disease (COPD). We have approached the problem with different neural network model architecture, and choose the model with would give us the best possible results, we also performed data augmentation over the data-set. The data-set we have used consists of respiratory sounds taken from different patients from different locations around the chest. We have used **Accuracy score**, **Precision score**, **Recall score**, **f1-score**, **Cohen’s kappa score**, **Matthews correlation coefficien** as metrics to evaluate and compare the performance of different models against the same data-set. With this model we have achieved an accuracy of 95.67% ± 0.77%,precision of 95.89% ± 0.8%, Sensitivity of 95.65% ± 0.753%,f1-score of 95.66% ± 0.79%, Cohen’s kappa score of 94.74% ± 0.96% and Matthews correlation coefficient of 94.79% ± 0.96%.
 
 ## About the Dataset
 
@@ -72,12 +72,12 @@ Model Evaluation
 
 The overall performance of our model over unknown data or validation data are:
 
-1. Accuracy: 95:67% ± 0:77%
-2. Precision: 95:89% ± 0:8%
-3. Recall/Sensitivity: 95:65% ± 0:753%
-4. f1-score: 95:66% ± 0:79%
-5. Cohens kappa score: 94:74% ± 0:96%
-6. Matthews correlation coefficient: 94:79% ± 0:96%
+1. Accuracy: 95.67% ± 0.77%
+2. Precision: 95.89% ± 0.8%
+3. Recall/Sensitivity: 95.65% ± 0.753%
+4. f1-score: 95.66% ± 0.79%
+5. Cohens kappa score: 94.74% ± 0.96%
+6. Matthews correlation coefficient: 94.79% ± 0.96%
 
 ## Classification report
 
