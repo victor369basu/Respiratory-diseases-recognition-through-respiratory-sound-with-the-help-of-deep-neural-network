@@ -1,5 +1,7 @@
 ## Respiratory diseases recognition through respiratory sound with the help of deep neural network
 
+Link to the research paper - <a href="https://ieeexplore.ieee.org/document/9080747">10.1109/CINE48825.2020.234388</a>
+
 ## Authors
 1. Victor Basu<br>
 Department of Computer Science and Engineering<br>
