@@ -32,21 +32,21 @@ The first problem we faced with the data-set was data imbalance. In the data-set
 data augmentation with other classes in the data-set. In data augmentation we added random noise to the audio
 data, shifted the audio data both by using numpy library and also applied time-stretch using librosa to the audio data. In this data-set, the audio was recorded from different locations around the chest for every single patient so in case of COPD, we considered a maximum three locations for every single patient to balance the data-set.
 <br>
-<img align="center" alt="performance" src="./Images/count.png" />
+<img align="center" alt="count" src="./Images/count.png" />
 We extracted Mel-frequency cepstral coefficients( spectral features ), from the audio data. 40 features are extracted from each audio data and used to train the model. Visualizations of the waveplot of the sound file we have used in our research.
-<img align="center" alt="performance" src="./Images/healthy.png" />
-<img align="center" alt="performance" src="./Images/Bronchiectasis.png" />
-<img align="center" alt="performance" src="./Images/Bronchiolitis.png" />
-<img align="center" alt="performance" src="./Images/copd.png" />
-<img align="center" alt="performance" src="./Images/pneumonia.png" />
+<img align="center" alt="healthy" src="./Images/healthy.png" />
+<img align="center" alt="Bronchiectasis" src="./Images/Bronchiectasis.png" />
+<img align="center" alt="Bronchiolitis" src="./Images/Bronchiolitis.png" />
+<img align="center" alt="copd" src="./Images/copd.png" />
+<img align="center" alt="pneumonia" src="./Images/pneumonia.png" />
 ## Model Architecture
 
-<img align="center" alt="performance" src="./Images/model_4_2.png" />
+<img align="center" alt="model" src="./Images/model_4_2.png" />
 
 ## Model Performance
 While compiling the model Categorical Cross-entropy is
 used as the loss function. We have also used Adamax as our
-Optimizer or optimizing algorithm.<br>
+Optimizer or optimizing algorithm.
 
 <img align="center" alt="performance" src="./Images/acc_2.png" />
 <img align="center" alt="performance" src="./Images/loss2.png" /><br>
@@ -58,7 +58,7 @@ the validation score during training the model. The model was trained for 1000 i
  Model Evaluation <br><br>
 
 |    | accuracy | precision | recall | f1-score | CK | MCC |
-| ---| -------- | --------- | ------ | -------- | -- | --- |
+| | -------- | --------- | ------ | --------- | -- | --- |
 |1 | 0.9525 | 0.9548 | 0.9526 | 0.9522 | 0.9426 | 0.9432 |
 |2 | 0.9567 | 0.9589 | 0.9565 | 0.9566 | 0.9474 | 0.9479 |
 |3 | 0.9605 | 0.9621 | 0.9605 | 0.9604 | 0.9521 | 0.9525 |s
