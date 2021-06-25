@@ -2,6 +2,7 @@ from keras import backend as K
 from model import InstantiateModel
 from keras.models import Model
 from keras.optimizers import Adamax
+from keras.layers import Input
 
 def trainModel(X, y):
     '''
